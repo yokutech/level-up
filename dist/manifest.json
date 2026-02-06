@@ -1,0 +1,59 @@
+{
+  "name": "Level Up - Build Better Habits",
+  "short_name": "LevelUp",
+  "description": "Track your daily habits, build streaks, and achieve your goals with beautiful analytics and offline support",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#18181b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/mobile-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["productivity", "lifestyle", "health"],
+  "shortcuts": [
+    {
+      "name": "Today's Habits",
+      "short_name": "Today",
+      "description": "View and check off today's habits",
+      "url": "/?page=dashboard",
+      "icons": [
+        {
+          "src": "/icons/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Analytics",
+      "short_name": "Stats",
+      "description": "View your habit statistics and charts",
+      "url": "/?page=analytics",
+      "icons": [
+        {
+          "src": "/icons/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
