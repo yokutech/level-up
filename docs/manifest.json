@@ -9,7 +9,7 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/icons/icon.png",
+      "src": "./icons/icon.png",
       "sizes": "any",
       "type": "image/png",
       "purpose": "any maskable"
@@ -38,7 +38,7 @@
       "url": "/?page=dashboard",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
+          "src": "./icons/icon-96x96.png",
           "sizes": "96x96"
         }
       ]
@@ -50,7 +50,7 @@
       "url": "/?page=analytics",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
+          "src": "./icons/icon-96x96.png",
           "sizes": "96x96"
         }
       ]
