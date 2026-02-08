@@ -21,6 +21,7 @@ export default defineConfig({
         name: 'Level Up - Build Better Habits',
         short_name: 'LevelUp',
         description: 'Track your daily habits, build streaks, and achieve your goals',
+        start_url: '/level-up/',
         theme_color: '#18181b',
         background_color: '#ffffff',
         display: 'standalone',

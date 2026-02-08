@@ -1,10 +1,10 @@
-# Habit Tracker
+# Level Up
 
-A modern, installable Progressive Web App (PWA) for tracking daily habits, visualizing progress, and building better routines. Habit Tracker helps you stay consistent, motivated, and organized—all offline and on any device.
+A modern, installable Progressive Web App (PWA) for tracking daily habits, visualizing progress, and building better routines. Level Up helps you stay consistent, motivated, and organized—all offline and on any device.
 
 ---
 
-![Habit Tracker Screenshot](docs/screenshot-placeholder.png)
+![Level Up Screenshot](public/screenshots/desktop-1.png)
 
 ---
 
@@ -100,7 +100,7 @@ public/
 
 ## 🗄️ Database Details
 
-Habit Tracker uses **IndexedDB** for local storage, managed via **Dexie.js**.
+Level Up uses **IndexedDB** for local storage, managed via **Dexie.js**.
 
 **Tables:**
 
@@ -215,7 +215,3 @@ export class HabitDB extends Dexie {
 ## 📄 License
 
 [MIT License](LICENSE)
-
----
-
-> _Replace screenshot and repo URLs as needed._
