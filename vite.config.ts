@@ -15,6 +15,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
+      scope: '/level-up/',
       includeAssets: ['icons/*.png', 'icons/*.svg'],
       manifest: {
         name: 'Level Up - Build Better Habits',
@@ -83,7 +84,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname,"./src"),
+      "@": path.resolve(__dirname, "./src"),
     }
   }
 })
